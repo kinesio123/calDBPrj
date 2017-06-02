@@ -9,6 +9,7 @@ CREATE TABLE tb_cal (
 ALTER TABLE tb_cal ADD PRIMARY KEY (id);
 
 select * from tb_cal;
+drop table tb_cal;
 
 Create Sequence seq_log
 start with 1
